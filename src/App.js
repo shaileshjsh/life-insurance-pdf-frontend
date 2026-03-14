@@ -25,7 +25,7 @@ function App() {
     const formData = new FormData();
     formData.append("file", file);
     try {
-      const res = await fetch("http://localhost:8001/extract-fields", {
+      const res = await fetch("https://life-insurance-pdf-backend-production.up.railway.app/extract-fields", {
         method: "POST",
         body: formData,
       });
