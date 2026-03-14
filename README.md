@@ -21,3 +21,4 @@ This is a React-based frontend for uploading a life insurance product illustrati
 ## Notes
 - The frontend expects the backend API to be running and accessible at `/extract-fields`.
 - Make sure CORS is configured if accessing the backend from a different origin.
+
